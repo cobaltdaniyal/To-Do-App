@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyCNWzVV10prnFjGTAh8wUmuh7wyNzIRwe8",
+          authDomain: "to-do-app-5a6e6.firebaseapp.com",
+          databaseURL: "https://to-do-app-5a6e6.firebaseio.com",
+          projectId: "to-do-app-5a6e6",
+          storageBucket: "to-do-app-5a6e6.appspot.com",
+          messagingSenderId: "667286547556",
+          appId: "1:667286547556:web:49b40bcc78e0b5913ac371",
+          measurementId: "G-W990V6TNZZ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+
+    <title>To Do Application</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- As a heading -->
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Versatile To-Do Application</span>
+        </nav>
+
+        <div class="task">
+            <input type="email" id="task" class="form-control" placeholder="Add Task e.g. Walk, Lunch, Study, Work, e.t.c.">
+        </div>
+
+        <div class="taskBtn">
+            <button onclick="addTask()" type="submit" class="SubBtn btn btn-primary"><i class="fa fa-plus" aria-hidden="true"></i> Add Task</button>
+            <button onclick="deleteAll()" type="submit" class="SubBtn btn btn-primary"><i class="fa fa-minus" aria-hidden="true"></i> Delete All</button>
+        </div>
+
+        <div class="row">
+            <ol id="unorderedList" class="w3-container">
+
+            </ol>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

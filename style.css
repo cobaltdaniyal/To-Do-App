@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+body {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1522441815192-d9f04eb0615c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1782&q=80");
+}
+
+.container {
+    width: 70%;
+}
+
+.form-control {
+    padding: 15px;
+}
+
+.navbar {
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 145) !important;
+    border: 1px solid rgb(10, 170, 233) !important;
+}
+
+.navbar-brand {
+    color: rgb(10, 170, 233) !important;
+    font-family: 'Rowdies', cursive !important;
+    font-family: 'Krona One', sans-serif !important;
+}
+
+.task {
+    margin-top: 25px;
+}
+
+.taskBtn {
+    margin-top: 10px;
+}
+
+.SubBtn {
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(0, 0, 145) !important;
+    border: 1px solid rgb(10, 170, 233) !important;
+    color: rgb(10, 170, 233) !important;
+    font-family: 'Rowdies', cursive !important;
+}
+
+.liBtn {
+    float: right;
+    font-family: 'Rowdies', cursive !important;
+    background-color: rgb(10, 170, 233) !important;
+    border: 1px solid rgb(10, 170, 233) !important;
+    color: rgb(0, 0, 145) !important;
+    margin-right: 5px;
+    line-height: 15px;
+}
+
+.w3-container {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.list {
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: 'Rowdies', cursive !important;
+    color: rgb(0, 0, 145) !important;
+    text-align: left;
+    border: 2px solid rgb(0, 0, 145) !important;
+    text-decoration: none;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar-brand {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .navbar-brand {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form-control {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .form-control {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .form-control {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .list {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .list {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .list {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .btn {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .btn {
+        font-size: 8px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .liBtn {
+        /* width: 40px; */
+        font-size: 10px !important;
+        line-height: 6px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .liBtn {
+        font-size: 8px !important;
+        line-height: 4px !important;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .liBtn {
+        font-size: 6px !important;
+        line-height: 1px !important;
+    }
+}
